@@ -4,6 +4,7 @@ html {
 
 body {
     margin: 0 auto;
+    background-color: #222;
 }
 #watermark {
     height: 100vh;
@@ -18,7 +19,7 @@ body {
 }
 #watermark p {
     color: #808080;
-    opacity: .5;
+    opacity: .2;
     max-width:100vh;
     min-height: 400px;
     font-size: 38px;
@@ -31,7 +32,12 @@ body {
 
 .reset {
     position: absolute;
+    color: white;
+    background-color: #3c79d3;
+    font-size: 16px;
+    border: none;
     z-index: 12;
+    padding: 15px 32px;
     margin-left: 10px;
     margin-top: 10px;
 }
